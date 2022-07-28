@@ -1,71 +1,80 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta http-equiv="Content-type" content="text/html; charset=utf-8">
-    <meta http-equiv="Content-Security-Policy" content="default-src 'none'; style-src 'unsafe-inline'; img-src data:; connect-src 'self'">
-    <title>Site not found &middot; GitHub Pages</title>
-    <style type="text/css" media="screen">
-      body {
-        background-color: #f1f1f1;
-        margin: 0;
-        font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-      }
-
-      .container { margin: 50px auto 40px auto; width: 600px; text-align: center; }
-
-      a { color: #4183c4; text-decoration: none; }
-      a:hover { text-decoration: underline; }
-
-      h1 { width: 800px; position:relative; left: -100px; letter-spacing: -1px; line-height: 60px; font-size: 60px; font-weight: 100; margin: 0px 0 50px 0; text-shadow: 0 1px 0 #fff; }
-      p { color: rgba(0, 0, 0, 0.5); margin: 20px 0; line-height: 1.6; }
-
-      ul { list-style: none; margin: 25px 0; padding: 0; }
-      li { display: table-cell; font-weight: bold; width: 1%; }
-
-      .logo { display: inline-block; margin-top: 35px; }
-      .logo-img-2x { display: none; }
-      @media
-      only screen and (-webkit-min-device-pixel-ratio: 2),
-      only screen and (   min--moz-device-pixel-ratio: 2),
-      only screen and (     -o-min-device-pixel-ratio: 2/1),
-      only screen and (        min-device-pixel-ratio: 2),
-      only screen and (                min-resolution: 192dpi),
-      only screen and (                min-resolution: 2dppx) {
-        .logo-img-1x { display: none; }
-        .logo-img-2x { display: inline-block; }
-      }
-
-      #suggestions {
-        margin-top: 35px;
-        color: #ccc;
-      }
-      #suggestions a {
-        color: #666666;
-        font-weight: 200;
-        font-size: 14px;
-        margin: 0 10px;
-      }
-
-    </style>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
   </head>
-  <body>
+  <body class="background-color-2">
 
-    <div class="container">
+    <nav class="navbar navbar-expand-sm  background-color-1">
+      <div class="container-fluid p-0">
+    </nav>
+        <a class="navbar-brand fw-semibold text-color-4" href="#Top">Food, LLC</a>
+        <button class="navbar-toggler background-color-4" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
 
-      <h1>404</h1>
-      <p><strong>There isn't a GitHub Pages site here.</strong></p>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0 d-sm-none">
 
-      <p>
-        If you're trying to publish one,
-        <a href="https://help.github.com/pages/">read the full documentation</a>
-        to learn how to set up <strong>GitHub Pages</strong>
-        for your repository, organization, or user account.
-      </p>
+            <li class="nav-item">
+              <a class="nav-link text-center text-color-3 fw-bold " aria-current="page" href="#Chicken">Chicken</a>
+            </li>
 
-      <div id="suggestions">
-        <a href="https://githubstatus.com">GitHub Status</a> &mdash;
-        <a href="https://twitter.com/githubstatus">@githubstatus</a>
+            <li class="nav-item">
+              <a class="nav-link text-center text-color-3 fw-bold " href="#Beef">Beef</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link text-center text-color-3 fw-bold hover" href="#Sushi">Sushi</a>
+            </li>
+          </ul>
+          
+        </div>
       </div>
-      
-  </body>
-</html>
+    </nav>
+
+    <h1 class="text-center text-color-4">Our menu</h1>
+
+    <section>
+
+      <div class="container-fluid text-center text-white">
+        <div class="row">
+          <div class="col-md-4 col-sm-6 p-0">
+            <div class=" m-2 background-color-3  p-4">
+              <p class="text-center  fw-bold h3 text-color-1" id="Chicken">Chicken</p>
+              <p class="text-start">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+              <a href="#Top" class="text-color-1 fw-bold ">Back to top</a></p>
+            </div>
+            
+          <div class="col-md-4 col-sm-6 p-0">
+            <div class=" m-2 background-color-3  p-4">
+             
+              <p class="text-center  fw-bold h3 text-color-1" id="Beef">Beef</p>
+              
+              <p class="text-start">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+              <a href="#Top" class="text-color-1 fw-bold ">Back to top</a></p>
+            </div>
+
+          <div class="col-md-4 col-sm-12 p-0">
+            <div class=" m-2 background-color-3  p-4">
+              <p class="text-center  fw-bold h3 text-color-1" id="Sushi">Sushi</p>
+              <p class="text-start">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+              <a href="#Top" class="text-color-1 fw-bold ">Back to top</a></p>
+              
+            </div>
+          </div>
+          
+        </div>
+      </div>
+
+    </section>
+  
+</body>
+
+
+
+
